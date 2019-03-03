@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hesaplama</title>
+</head>
+<body>
+	<h2>Hesaplama</h2>
+		<form action="MathServlet" method="post">
+			<table>
+				<tr>
+				<td>a&nbsp;&nbsp;</td>
+				<td><input type="text" name="numbera" style="width: 80px;height: 20px;padding: 0"/></td>
+				</tr>
+				<tr>
+				<td>b&nbsp;&nbsp;</td>
+				<td><input type="text" name="numberb" style="width: 80px;height: 20px;padding: 0"/></td>
+				</tr>			
+				<tr>
+				<td colspan="2">
+				<select name="operation" style="width: 120px;height: 30px;padding: 0">
+				<option value="add">Addition</option>
+				<option value="sub">Subtraction</option>
+				<option value="mul">Multiplication</option>
+				<option value="div">Division</option> 
+				
+				</select>
+				</tr>
+			
+			
+			</table>		
+			<input type="submit" value="Calculate" style="width: 120px;height: 30px;padding: 0"/>
+		
+		</form>
+
+</body>
+</html>

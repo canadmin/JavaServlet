@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Session Test</title>
+</head>
+<body>
+<h3>Start Page</h3>
+	<form action="CreateServlet" method="post">
+		<table>
+		<tr>
+			<td>
+			Enter name
+			</td>
+			<td>
+			<input type="text" name="name" id="name"/>
+			</td>
+			<td>
+			Enter job Title &nbsp;&nbsp;
+			</td>
+			<td>
+			<input type="text" name="title" id="title"/>
+			</td>
+		</tr>
+		<tr>
+		<td colspan="2">
+		<input type="submit" value="ok"/>
+		</td>
+		</tr>
+		</table>
+	</form>
+	<ol>
+	<li>
+	<a href="NameServlet">Show Name</a></li>
+		<li>
+	<a href="TitleServlet">Show Title</a></li>
+	</ol>
+</body>
+</html>
